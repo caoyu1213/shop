@@ -1,0 +1,83 @@
+#header{
+    background: url(../img/banner33.jpg) no-repeat center;
+    height: 250px;
+}
+#login-container{
+margin-top: 30px;
+
+}
+#login-container form{
+    width: 570px;
+    height: 290px;
+    float: left;
+}
+#login-container h5{
+    color:#5d5959;
+    font-size: 20px;
+}
+#login-container label{
+     margin-top: 20px;
+    display: block;
+
+}
+#login-container label input{
+    width: 400px;
+     height: 38px;
+    outline: none;
+    text-indent: 10px;
+    font-size: 20px;
+
+}
+/* Ù–‘—°‘Ò∆˜*/
+#login-container input[value="login"]{
+    width: 114px;
+    height: 41px;
+    background: #ef8743;
+    color:white;
+    font-size: 20px;
+    border:0;
+    border-radius:10px;/*±‰‘≤Ω«*/
+    cursor: pointer;
+   margin-top:10px;
+}
+#login-container input[value="login"]:hover{
+    background: #ffffff;
+    color: #000000;
+    border:1px solid #000000;
+}
+#forget{
+    color:#5d5959;
+    text-decoration: underline;
+    margin-top: 20px;
+    display: block;
+}
+#register{
+    float: right;
+    width: 540px;
+}
+#register h3{
+    color:#ef8743;
+
+}
+#register p{
+     color: #999;
+   margin: 20px 0;
+
+}
+#register .btn{
+    width: 106px;
+    height: 42px;
+    background: #ffffff;
+    border:1px solid #000;
+    border-radius:10px;/*±‰‘≤Ω«*/
+    display: block;
+    text-align: center;
+    line-height: 42px;
+    color: black;
+
+}
+#register .btn:hover{
+    background:#ef8743;
+    color:#ffffff;
+    cursor: pointer;
+}
